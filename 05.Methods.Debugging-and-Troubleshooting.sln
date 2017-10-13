@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Hello-Name", "02.Hello-Name\02.Hello-Name.csproj", "{5936E0C6-5A6D-4F80-807D-391D6E215843}"
 EndProject
@@ -16,6 +16,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Prime-Checker", "06.Prime-Checker\06.Prime-Checker.csproj", "{568B2143-F738-464B-B735-611B55BB0015}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Primes-in-Given-Range", "07.Primes-in-Given-Range\07.Primes-in-Given-Range.csproj", "{B2B653FB-DEF3-4696-9137-2A31C9886BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Center-Point", "08.Center-Point\08.Center-Point.csproj", "{02D9893D-4576-42AA-B4C4-5741788C3EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Longer-Line", "09.Longer-Line\09.Longer-Line.csproj", "{E8076797-FF02-49D0-AEB7-4E3BD08FFBEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Cube-Properties", "10.Cube-Properties\10.Cube-Properties.csproj", "{EB034405-C89D-459A-B7B0-FC7963A9F053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.Geometry-Calculator", "11.Geometry-Calculator\11.Geometry-Calculator.csproj", "{DBCE34EA-9704-424A-AB8A-6C5AB2F77D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.Master-Number", "12.Master-Number\12.Master-Number.csproj", "{AEA237A4-A8FA-4EDE-966B-B85462D2E52F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +61,26 @@ Global
 		{B2B653FB-DEF3-4696-9137-2A31C9886BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2B653FB-DEF3-4696-9137-2A31C9886BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2B653FB-DEF3-4696-9137-2A31C9886BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D9893D-4576-42AA-B4C4-5741788C3EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D9893D-4576-42AA-B4C4-5741788C3EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D9893D-4576-42AA-B4C4-5741788C3EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D9893D-4576-42AA-B4C4-5741788C3EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8076797-FF02-49D0-AEB7-4E3BD08FFBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8076797-FF02-49D0-AEB7-4E3BD08FFBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8076797-FF02-49D0-AEB7-4E3BD08FFBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8076797-FF02-49D0-AEB7-4E3BD08FFBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB034405-C89D-459A-B7B0-FC7963A9F053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB034405-C89D-459A-B7B0-FC7963A9F053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB034405-C89D-459A-B7B0-FC7963A9F053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB034405-C89D-459A-B7B0-FC7963A9F053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCE34EA-9704-424A-AB8A-6C5AB2F77D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCE34EA-9704-424A-AB8A-6C5AB2F77D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCE34EA-9704-424A-AB8A-6C5AB2F77D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCE34EA-9704-424A-AB8A-6C5AB2F77D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA237A4-A8FA-4EDE-966B-B85462D2E52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA237A4-A8FA-4EDE-966B-B85462D2E52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA237A4-A8FA-4EDE-966B-B85462D2E52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA237A4-A8FA-4EDE-966B-B85462D2E52F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
