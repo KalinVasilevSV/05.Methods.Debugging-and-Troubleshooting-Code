@@ -24,24 +24,23 @@ namespace _12.Master_Number
         {
             List<int> masters = new List<int>();
 
-            for (int i = 1; i <= n; i++)
+            for (int i = 1; i < n; i++)
             {
                 bool isMaster = true;
 
-                int digitsSum = GetDigitsSum(n);
+                int digitsSum = GetDigitsSum(i);
                 if (digitsSum % 7 != 0)
                 {
                     isMaster = false;
                 }
 
-                bool hasEvenDigit = CheckEvenDigit(n);
+                bool hasEvenDigit = CheckEvenDigit(i);
                 if (!hasEvenDigit)
                 {
                     isMaster = false;
                 }
 
-                bool isPalindrome = IsPalindrome(n);
-                Console.WriteLine(isPalindrome);
+                bool isPalindrome = IsPalindrome(i);
                 if (!isPalindrome)
                 {
                     isMaster = false;
